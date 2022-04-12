@@ -1,0 +1,43 @@
+{
+  "productName": "超级转码",
+  "appId": "sweetwisdom",
+  "asar": true,
+  "directories": {
+    "output": "release/${version}"
+  },
+  "files": ["!node_modules", "dist", "package.json"],
+  "mac": {
+    "artifactName": "${productName}_${version}.${ext}",
+    "target": ["dmg"]
+  },
+  "win": {
+    "icon": "./public/super.ico",
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      }
+    ],
+    "artifactName": "${productName}_${version}.${ext}"
+  },
+  "extraResources": [
+    {
+      "from": "./public/tool.exe",
+      "to": "./public/tool.exe"
+    },
+    {
+      "from": "./public/node_modules",
+      "to": "./node_modules"
+    }
+  ],
+  "nsis": {
+    "oneClick": false,
+    "perMachine": false,
+    "allowToChangeInstallationDirectory": true,
+    "deleteAppDataOnUninstall": true,
+    "installerIcon": "./public/super.ico",
+    "uninstallerIcon": "./public/super.ico",
+    "installerHeaderIcon": "./public/super.ico",
+    "shortcutName": "超级转码"
+  }
+}

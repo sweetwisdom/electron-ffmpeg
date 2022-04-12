@@ -1,0 +1,12 @@
+{
+  "name": "public",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cross-spawn": "^7.0.2"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

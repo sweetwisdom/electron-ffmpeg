@@ -1,0 +1,12 @@
+node_modules
+.DS_Store
+dist
+dist-ssr
+*.local
+
+tmp
+**/.tmp
+release
+.vscode
+public/tool.exe
+src/renderer/public/tool.exe
