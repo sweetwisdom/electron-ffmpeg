@@ -2,7 +2,7 @@
 
 
 
-![image-20220412121741509](.imgs/image-20220412121741509.png)
+![image-20220412121741509](https://s2.loli.net/2022/04/12/HFYVUe1vKmnp2rC.png)
 
 Language:[English](./README-en.md)
 
@@ -28,7 +28,7 @@ Language:[English](./README-en.md)
 
 **使用效果**
 
-![Honeycam 2022-04-12 12-29-07](.imgs/Honeycam%202022-04-12%2012-29-07.gif)
+![Honeycam 2022-04-12 12-29-07](https://s2.loli.net/2022/04/12/Oz1cML4rpV9Xg6U.gif)
 
 
 
